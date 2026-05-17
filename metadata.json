@@ -1,0 +1,8 @@
+{
+  "name": "MediCare Clinic Website",
+  "description": "A professional clinic landing page with sections for about, services, testimonials, gallery, and appointment booking form, with a WhatsApp connection widget.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
