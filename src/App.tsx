@@ -161,7 +161,7 @@ export default function App() {
       </section>
 
       {/* --- About Doctor Section --- */}
-      <section id="about" className="py-24 bg-white relative">
+      <section id="about" className="py-24 bg-transparent relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1 relative">
