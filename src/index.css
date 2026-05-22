@@ -4,10 +4,10 @@
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-display: "Playfair Display", ui-serif, Georgia, serif;
-  --color-primary: #047857; /* Emerald 700 - trustworthy healthcare green */
-  --color-primary-light: #10b981; /* Emerald 500 */
-  --color-primary-dark: #065f46; /* Emerald 800 */
-  --color-surface: #f8fafc; /* Slate 50 */
+  --color-primary: #1e40af; /* Blue 800 - trustworthy healthcare blue */
+  --color-primary-light: #3b82f6; /* Blue 500 */
+  --color-primary-dark: #1e3a8a; /* Blue 900 */
+  --color-surface: #dbeafe; /* Blue 100 for section backgrounds */
 }
 
 /* Smooth scrolling for anchor links */
@@ -18,7 +18,7 @@ html {
 body {
   font-family: var(--font-sans);
   color: #334155; /* Slate 700 */
-  background-color: #ffffff;
+background-color: #eff6ff; /* Blue 50 for main background */
 }
 
 h1, h2, h3, h4, h5, h6 {
