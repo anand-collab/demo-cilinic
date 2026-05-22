@@ -13,6 +13,7 @@ import {
   Baby,
   Star
 } from 'lucide-react';
+import newDoctorPhoto from './new-doctor.jpg';
 
 export default function App() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -166,7 +167,7 @@ export default function App() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1 relative">
                <div className="aspect-[3/4] rounded-3xl overflow-hidden shadow-lg border-4 border-white">
-                  <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80" alt="Dr. Smith" className="object-cover w-full h-full" />
+                 <img src={newDoctorPhoto} alt="Dr. Smith" className="object-cover w-full h-full" />
                </div>
             </div>
             <div className="order-1 lg:order-2">
